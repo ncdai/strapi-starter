@@ -16,8 +16,6 @@ Start your Strapi application with autoReload disabled. [Learn more](https://doc
 
 ```bash
 yarn start
-# or production
-yarn start:prod
 ```
 
 ### `build`
@@ -26,13 +24,16 @@ Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-
 
 ```bash
 yarn build
-# or production
-yarn build:prod
 ```
 
 ## ⚙️ Deployment
 
 Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+
+```bash
+# production
+docker compose up -d
+```
 
 ## 📚 Learn more
 
